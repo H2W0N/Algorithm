@@ -10,3 +10,13 @@ if q > len(a):
     print(0)
 else :
     print(a[q-1])
+    
+# 다른 사람의 풀이
+n, k = map(int, input().split())
+res = 0
+for i in range(1, n+1) :
+    if n%i == 0 :
+        k -= 1
+        if k == 0 :
+            res = i
+print(res)
