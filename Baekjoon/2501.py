@@ -1,3 +1,4 @@
+# 약수 구하기
 p, q = input().split()
 p = int(p)
 q = int(q)
