@@ -33,10 +33,11 @@ else :
     print(min(arr))
 
 
+# 다른 사람의 풀이
+
 start_num = int(input())
 last_num = int(input())
 
-# 다른 사람의 풀이
 sosu_list = []
 for num in range(start_num, last_num+1):
     error = 0
